@@ -1,0 +1,25 @@
+.shiki,
+.shiki span {
+  background: var(--shiki-light-bg);
+  color: var(--shiki-light);
+}
+
+.prose pre:not(.shiki) {
+  padding: 0;
+}
+
+.prose .shiki {
+  font-family: 'DM Mono', monospace;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+.prose img {
+  width: 100%;
+}
+
+html.dark .shiki,
+html.dark .shiki span {
+  background: var(--shiki-dark-bg);
+  color: var(--shiki-dark);
+}
